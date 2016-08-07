@@ -1,0 +1,27 @@
+{
+  "name": "sol-eye",
+  "version": "0.0.0",
+  "description": "Find all calls to import in your solidity code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duaraghav8/sol-eye.git"
+  },
+  "keywords": [
+    "AST",
+    "Solidity"
+  ],
+  "author": "Raghav Dua <duaraghav8@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duaraghav8/sol-eye/issues"
+  },
+  "homepage": "https://github.com/duaraghav8/sol-eye#readme",
+  "dependencies": {
+    "sol-explore": "^1.6.1",
+    "solparse": "^1.0.0"
+  }
+}
